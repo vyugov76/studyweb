@@ -9,5 +9,19 @@
         <a href="./dz1.html">дз 1</a>
         <a href="./page.html">история создания http протокола\</a>
         <div id="vid">я div с id</div>
+        <script>
+          function checkPassword () {
+            const correctPassword = '1234'
+          const password = prompt("введите пароль")
+
+          if (correctPassword === password) {
+            alert("вы авторизованны")
+            return
+          }
+          alert("неверный пароль!")
+          window.location.href="./404.html"
+          }
+          checkPassword()
+        </script>
     </body>
 </html>

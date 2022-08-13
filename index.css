@@ -1,0 +1,20 @@
+body {
+    background-color: whitesmoke;
+  }
+  h1 {
+    color: purple;
+    text-align: center;
+  }
+  a {
+    border: 1px solid green;
+  }
+  .vladimir {
+    color: greenyellow;
+    background: orange;
+    padding: 20px;
+    transition: background .2s;
+  }
+  /* правило hover срабатывает при  наведении на элемент */
+  .vladimir:hover {
+    background: rebeccapurple;
+  }

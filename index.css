@@ -14,7 +14,7 @@ body {
     padding: 20px;
     transition: background .2s;
   }
-  /* правило hover срабатывает при  наведении на элемент */
+  /* правило hover срабатывает er  наведении на элемент */
   .vladimir:hover {
     background: rebeccapurple;
   }
